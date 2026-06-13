@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register - Elite Stay</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <div>E</div>
+                    <span>ELITE<br />STAY</span>
+                </div>
+            </a>            
+            <h2>Create an Account</h2>
+            <form action="/submit-register" method="POST">
+                <div class="input__group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username" required />
+                </div>
+                <div class="input__group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required />
+                </div>
+                <div class="input__group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required />
+                </div>
+                <div class="input__group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required />
+                </div>
+                <button class="btn" type="submit">Register</button>
+                <p>Already have an account? <a href="login.html">Login here</a>.</p>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

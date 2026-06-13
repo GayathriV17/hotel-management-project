@@ -1,0 +1,130 @@
+/* Centering the content and styling the form container */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.auth-container {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.input__group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input__group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input__group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input__group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.auth-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.auth-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .auth-container {
+        padding: 30px 20px;
+    }
+
+    .auth-container h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.logo div:first-child {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+}
+
+.logo span br {
+    display: none;
+}

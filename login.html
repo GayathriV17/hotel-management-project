@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login - Elite Stay</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <div>E</div>
+                    <span>ELITE<br />STAY</span>
+                </div>
+            </a>
+            <h2>Login to Elite Stay</h2>
+            <form action="/submit-login" method="POST">
+                <div class="input__group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username" required />
+                </div>
+                <div class="input__group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required />
+                </div>
+                <button class="btn" type="submit">Login</button>
+                <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
